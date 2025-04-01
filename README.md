@@ -48,6 +48,7 @@ A beautiful and responsive To-Do List application built with React and Bootstrap
 
 | Feature | Screenshot |
 |---------|-----------|
+| **Adding a Task** | ![Add Task](./images/add.png) |
 | **Editing a Task** | ![Edit Task](./images/edit.png) |
 | **Delete Confirmation** | ![Delete Dialog](./images/delete.png) |
 
