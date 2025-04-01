@@ -1,0 +1,113 @@
+/* Custom container tweaks */
+.todo-app {
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced card header */
+.card-header {
+  background: linear-gradient(135deg, #0004ff 0%, #6a11cb 100%) !important;
+}
+
+/* Task list container */
+.task-list-container {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+/* Custom scrollbar */
+.task-list-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.task-list-container::-webkit-scrollbar-thumb {
+  background: rgba(0, 4, 255, 0.2);
+  border-radius: 4px;
+}
+
+/* Task item enhancements */
+.list-group-item {
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.list-group-item:hover {
+  transform: translateY(-2px);
+  border-left-color: #0004ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effects */
+.btn-primary {
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 4, 255, 0.3);
+}
+
+.btn-danger:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+}
+
+.btn-warning:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(255, 193, 7, 0.3);
+}
+
+/* Edit mode styling */
+.edit-input {
+  border: 2px solid #0004ff !important;
+}
+
+/* Empty state message */
+.empty-message {
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* Modal enhancements */
+.modal-content {
+  border: none;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Task actions */
+.task-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .input-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-group > .form-control,
+  .input-group > .btn {
+    width: 100%;
+    border-radius: 5px !important;
+  }
+  
+  .task-actions {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Edit confirmation diff styling */
+.text-muted {
+  font-size: 0.9rem;
+  background-color: #f8f9fa;
+  padding: 0.25rem;
+  border-radius: 3px;
+}
