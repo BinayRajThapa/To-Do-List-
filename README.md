@@ -16,8 +16,6 @@ A beautiful and responsive To-Do List application built with React and Bootstrap
 
 - 📱 Fully responsive works on all devices
 
-- ⚡ Instant search through your tasks
-
 - 🔄 Smooth animations for better UX
 
 - 🛡️ Confirmation dialogs for important actions
@@ -58,8 +56,8 @@ A beautiful and responsive To-Do List application built with React and Bootstrap
 
 | Technology | Purpose |
 |---------|-----------|
-| **React** | Frontend framework |
-| **Bootstrap** | UI components and styling |
+| **React 18** | Frontend framework |
+| **Bootstrap 5** | UI components and styling |
 | **React Bootstrap** | Pre-built React components |
 | **localStorage** | Data persistence |
 | **CSS3** | Custom styling and animations |
