@@ -44,4 +44,30 @@ A beautiful and responsive To-Do List application built with React and Bootstrap
 
 ---
 
+## 📸 Application Screenshots
+
+| Feature | Screenshot |
+|---------|-----------|
+| **Editing a Task** | ![Edit Task](./images/edit.png) |
+| **Delete Confirmation** | ![Delete Dialog](./images/delete.png) |
+
+---
+
+## 📸 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---------|-----------|
+| **React** | Frontend framework |
+| **Bootstrap** | UI components and styling |
+| **React Bootstrap** | Pre-built React components |
+| **localStorage** | Data persistence |
+| **CSS3** | Custom styling and animations |
+
+---
+
+## Contributing 🤝
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+
+
 
